@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./tests/bootstrap.php"
-         colors="true"
-         stopOnError="false"
-         stopOnFailure="false"
-         stopOnIncomplete="false"
-         stopOnSkipped="false"
-        verbose="true">
+<phpunit bootstrap="./tests/bootstrap.php" color="true">
 
     <testsuites>
         <testsuite name="PHP Sepa XML">
