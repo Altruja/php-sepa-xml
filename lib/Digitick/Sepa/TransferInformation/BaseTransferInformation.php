@@ -83,7 +83,7 @@ class BaseTransferInformation implements TransferInformationInterface
     public function __construct($amount, $iban, $name) {
         $amount += 0;
         if (is_float($amount)) {
-            $amount = (integer) (round($amount, 2) * 100);
+            $amount = (round($amount, 2) * 100);
         }
         $this->transferAmount = $amount;
         $this->iban = $iban;
